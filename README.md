@@ -1,7 +1,7 @@
 GDB Tutorial
 
 To build:
-g++ -std=c++14 -g main.cpp -lpthread -o gdb-ex
+g++ -std=c++14 -g -Og main.cpp -lpthread -o gdb-ex
 
 To run under gdb:
 $ gdb --args ./gdb-ex 5
